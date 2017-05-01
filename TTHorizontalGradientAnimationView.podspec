@@ -9,34 +9,28 @@
 Pod::Spec.new do |s|
   s.name             = 'TTHorizontalGradientAnimationView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TTHorizontalGradientAnimationView.'
+  s.summary          = 'A horizontal colorful gradient animation to indicate indeterminate progress based on CAGradientLayer'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ A multi-hued drop in UIView animation
+   * Drop it anywhere you want, size it according to your needs
+   * View automatically animates
+   * Remove it from your view hierarchy when you're done
                        DESC
 
   s.homepage         = 'https://github.com/dhiraj/TTHorizontalGradientAnimationView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/dhiraj/TTHorizontalGradientAnimationView/develop/Screenshots/TTHorizontalGradientAnimationView.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dhiraj' => 'dhiraj@traversient.com' }
+  s.author           = { 'dhiraj' => 'development@traversient.com' }
   s.source           = { :git => 'https://github.com/dhiraj/TTHorizontalGradientAnimationView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/dhiraj'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'TTHorizontalGradientAnimationView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'TTHorizontalGradientAnimationView' => ['TTHorizontalGradientAnimationView/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
