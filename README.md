@@ -1,6 +1,6 @@
 # TTHorizontalGradientAnimationView
 
-[![CI Status](http://img.shields.io/travis/dhiraj/TTHorizontalGradientAnimationView.svg?style=flat)](https://travis-ci.org/dhiraj/TTHorizontalGradientAnimationView)
+![Swift Version](https://img.shields.io/badge/swift-3.0-orange.svg)
 [![Version](https://img.shields.io/cocoapods/v/TTHorizontalGradientAnimationView.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalGradientAnimationView)
 [![License](https://img.shields.io/cocoapods/l/TTHorizontalGradientAnimationView.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalGradientAnimationView)
 [![Platform](https://img.shields.io/cocoapods/p/TTHorizontalGradientAnimationView.svg?style=flat)](http://cocoapods.org/pods/TTHorizontalGradientAnimationView)
