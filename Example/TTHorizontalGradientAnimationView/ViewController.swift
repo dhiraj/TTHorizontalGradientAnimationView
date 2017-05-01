@@ -7,17 +7,25 @@
 //
 
 import UIKit
+import TTHorizontalGradientAnimationView
 
 class ViewController: UIViewController {
 
+    let progressView = TTHorizontalGradientAnimationView()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.title = "TTHorizontalGradientAnimationView"
+        self.view.addSubview(progressView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        var remainder,temp:CGRect
+        remainder = view.bounds
+        (temp,remainder) = remainder.divided(atDistance: topLayoutGuide.length + 0.5, from: .minYEdge)
+        (temp,remainder) = remainder.divided(atDistance: 2, from: .minYEdge)
+        progressView.frame = temp
     }
 
 }

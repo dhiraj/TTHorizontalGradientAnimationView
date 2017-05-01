@@ -1,0 +1,16 @@
+PODS:
+  - TTHorizontalGradientAnimationView (0.1.0)
+
+DEPENDENCIES:
+  - TTHorizontalGradientAnimationView (from `../`)
+
+EXTERNAL SOURCES:
+  TTHorizontalGradientAnimationView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TTHorizontalGradientAnimationView: '025685cc41e14c7638c30cbb025fb1f8c77d58e0'
+
+PODFILE CHECKSUM: 133faae7fb8ba564db55f14a80198d8d8a9465ac
+
+COCOAPODS: 1.2.1
