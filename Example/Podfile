@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTHorizontalGradientAnimationView_Example' do
+  pod 'TTHorizontalGradientAnimationView', :path => '../'
+
+  target 'TTHorizontalGradientAnimationView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
